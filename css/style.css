@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+body {
+    background-color: #f5f5f5;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header img,
+header nav {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+}
+
+.social {
+    padding: 25px;
+    float: right;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hover, a {
+    transition: 0.3;
+    opacity: 1;
+}
+
+.hover:hover,a:hover {
+    transition: 0.3;
+    opacity: 0.5;
+}
+.banner img{
+    width: 100%;
+    margin: 40px 0;
+    height: 300px;
+}
+.texto{
+    width: 47%;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    padding-right: 25px;
+    line-height: 30px;
+    font-size: 25px;
+}
+.sobre h2{
+    font-weight: 900;
+    text-align:center;
+}
+.sobre img{
+    width: 50%;
+    display: inline-block;
+}
+.servicos {
+    background-color: #c7c4c4;
+    padding: 70px 0;
+    margin:50px 0 ;
+}
+.servico {
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+}
+.servico img{
+    border:2px solid #ffff;
+    width: 100%;
+}
+.titulo,.servicos h2 {
+    color: #211c1c;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+.servicos h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#000
+}
+.depoimentos h2{
+    color: #000;
+}
+.item {
+    display: inline-block;
+    width: 31%;
+    padding: 1%;
+    text-align: center;
+    font-weight: 900;
+}
+.item img{ 
+width: 100px; 
+float: left;
+margin-right: 15px;
+}
+.item .cliente {
+    padding-top: 45px;
+    margin-left: 10px;
+}
+.item p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.depoimentos {
+    margin: 70px;
+}
+
+footer{
+    background-color: #393F44;
+    color: #fff;
+    padding: 50px;
+}
+.item h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer input, footer textarea {
+    width: 250px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    color: #fff;
+}
+footer input[type="submit"] {
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul li{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.social ul li a{
+    color: #fff;
+}
+.social ul li{
+    background-color: #000;
+    padding: 5px 10px;
+    margin: 5px;
+}
+header {
+    height: 145px;
+}
+.content
+
+.sobre{
+    line-height: 30px;
+    font-size: 20px;
+}
+  
+.sidebar{
+    width: 165px;
+    font-size: 40px;
+    border-left: 5px solid #0609b3;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0 38px;
+    float: left;
+    clear: both;
+    word-break:break-all;
+}
+.info{
+    width: 950px;
+    display: inline-block;
+    text-align: justify;
+}
+.bgheader{
+    background: url(../img/carrossobre.jpg);
+    background-size: cover;
+    background-repeat: no;
+    height: 300px;
+    margin: 20px;
+    background-position-y: 351px;
+}
+
+.sidebar h1 {
+    font-size: 35px;
+}
+.info p{
+    text-align: justify;
+
+}
+
+.servicos.pagina{
+
+    margin-bottom: 60px;
+    background-color: #f5f5f5;
+}
+.div50{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+ul.sociais li{
+    display: inline-block;
+}
+
+ul.sociais li a{
+    color:#000
+}
+
+.contato input, .contato textarea{
+    width: 100%;
+    max-width: 350px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:none;
+    background-color:rgb(183, 179, 175);
+}
